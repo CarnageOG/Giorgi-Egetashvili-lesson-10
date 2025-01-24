@@ -2,3 +2,42 @@
 	margin: 0;
 	padding: 0;
 }
+.container{
+  max-width: 1980px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section{
+	background-color: #0A22F4;
+}
+.h1{
+	color: #FFFFFF;
+	font-size: 32px;
+}
+.contact-p{
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.footer{
+	display: flex;
+	color: #FFFFFF;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 40px;
+}
+.heart-img{
+	width: 26px;
+	height: 26px;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+.logo-img{
+	width: 121px;
+	height: 35px;
+	padding-left: 30px;
+}
+.logos{
+	display: flex;
+	align-items: center;
+}
