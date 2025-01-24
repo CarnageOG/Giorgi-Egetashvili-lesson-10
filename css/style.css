@@ -19,6 +19,63 @@ section{
 	color: #FFFFFF;
 	font-size: 16px;
 }
+.phone-logo{
+	padding: 22px;
+	position: absolute;
+	width: 26px;
+	height: 26px;
+}
+.message-logo{
+	padding: 22px;
+	position: absolute;
+	width: 26px;
+	height: 26px;
+}
+.phone-background{
+	position: revert;
+	background-color: #FFFFFF;
+	width: 70px;
+	height: 70px;
+}
+.message-background{
+	position: revert;
+	background-color: #FFFFFF;
+	width: 70px;
+	height: 70px;
+}
+.phone{
+	display: flex;
+	align-items: center;
+
+}
+.message{
+	display: flex;
+	align-items: center;
+}
+.contact-phone-message{
+	display: flex;
+	gap: 98px;
+}
+.number{
+	padding-left: 20px;
+	color: #FFFFFF;
+}
+.email{
+	padding-left: 20px;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
 	display: flex;
 	color: #FFFFFF;
