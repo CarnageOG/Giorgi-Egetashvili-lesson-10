@@ -4,11 +4,12 @@
 }
 .container{
   max-width: 1980px;
-  width: 95%;
+  width: 100%;
   margin: auto;
 }
 .layout{
 	display: flex;
+	flex-direction: row;
 	gap: 304px;
 }
 section{
@@ -18,8 +19,8 @@ section{
 h1{
 	color: #FFFFFF;
 	font-size: 32px;
-	margin-bottom: 30px;
 	padding-top: 275px;
+	margin-bottom: 30px;
 }
 .div-p{
 	width: 463px;
@@ -83,7 +84,8 @@ h1{
 .footer{
 	display: flex;
 	color: #FFFFFF;
-	justify-content: space-between;
+	flex-direction: row;
+	gap: 896px;
 	align-items: center;
 	padding-bottom: 40px;
 }
@@ -111,10 +113,12 @@ button{
 	height: 55px;
 }
 .send{
-
+	transform: translatex(277px);
 	position: relative;
 	width: 223px;
 	height: 91px;
+	margin-top: 40px;
+	margin-bottom: 105px;
 }
 form{
 	width: 463px;
@@ -122,6 +126,7 @@ form{
 label{
 	font-size: 16px;
 	color: #FFFFFF;
+	padding-top: 41px;
 }
 input{
 	background-color: #0A22F4;
@@ -129,9 +134,7 @@ input{
 	color: #FFFFFF;
 	border: none;
 	outline: none;
-	border-bottom: 0.1px solid white;
-	margin-bottom: 40px;
-	padding-top: 41px;
+	border-bottom: 2px solid white;
 }
 textarea{
 	background-color: #0A22F4;
@@ -140,10 +143,18 @@ textarea{
 	color: #FFFFFF
 	outline: none;
 	resize: none;
+	outline: none;
 	border-bottom: 0.1px solid white;
-	padding-bottom: 121px;
+	padding-bottom: 81px;
 }
 .registration{
 	display: flex;
 	flex-direction: column;
+	gap: 40px;
+}
+.map {
+    width: 80%;
+    width: 463px;
+    height: 197px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
