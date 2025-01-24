@@ -8,6 +8,9 @@
   margin-left: auto;
   margin-right: auto;
 }
+.layout{
+	display: flex;
+}
 section{
 	background-color: #0A22F4;
 }
@@ -16,7 +19,6 @@ section{
 	font-size: 32px;
 }
 .div-h1{
-	padding-top: 275px;
 	padding-bottom: 30px;
 }
 .div-p{
