@@ -5,8 +5,7 @@
 .container{
   max-width: 1980px;
   width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 .layout{
 	display: flex;
@@ -99,4 +98,20 @@ h1{
 .logos{
 	display: flex;
 	align-items: center;
+}
+.button{
+	position: absolute;
+	padding: 18px 36px;
+}
+button{
+	width: 151px;
+	height: 55px;
+}
+.send{
+	position: relative;
+	width: 223px;
+	height: 91px;
+}
+.registration{
+	width: 463px;
 }
