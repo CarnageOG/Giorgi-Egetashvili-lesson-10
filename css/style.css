@@ -14,16 +14,15 @@
 section{
 	background-color: #0A22F4;
 }
-.h1{
+h1{
 	color: #FFFFFF;
 	font-size: 32px;
-}
-.div-h1{
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 .div-p{
 	width: 463px;
 	height: 99px;
+	margin-bottom: 58px;
 }
 .contact-p{
 	color: #FFFFFF;
@@ -31,39 +30,44 @@ section{
 }
 .phone-logo{
 	padding: 22px;
-	position: absolute;
 	width: 26px;
 	height: 26px;
 }
 .message-logo{
 	padding: 22px;
-	position: absolute;
 	width: 26px;
 	height: 26px;
 }
 .phone-background{
-	position: revert;
 	background-color: #FFFFFF;
 	width: 70px;
 	height: 70px;
 }
 .message-background{
-	position: revert;
 	background-color: #FFFFFF;
 	width: 70px;
 	height: 70px;
 }
+.top-phone{
+	margin-top: 60px;
+	width: 268px;
+	height: 170px;
+}
+.top-message{
+	margin-top: 60px;
+	width: 306px;
+	height: 170px;
+}
 .phone{
 	display: flex;
 	align-items: center;
-
 }
 .message{
 	display: flex;
 	align-items: center;
 }
 .contact-phone-message{
-	display: flex;
+	display: flex;	
 	gap: 98px;
 }
 .number{
